@@ -1,0 +1,8 @@
+body{color:#000;background:none;}
+h1,h2,h3,h4,h5{clear:none;page-break-after:avoid;}
+#page,#main{width:98%;margin:0;}
+#home,#bar,#mainNav,#service,#footer,#cFn1,#cFn2,.g-no-print,.g-area-heading,.kein_druck,.toplink,a.g-fnlink-top{display:none;}
+#bc{width:98%;background:none;padding:10px 0;clear:none;}
+#contentcontainer,#main{width:100%;margin:0;border:0;float:left;height:auto !important;}
+#main{margin:0;border:0;display:inline;float:none;.float:left;height:auto !important;}
+.logo-print{display:inline;}

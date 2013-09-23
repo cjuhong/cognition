@@ -1,0 +1,946 @@
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,nav,section{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block;}
+table{border-collapse:separate;border-spacing:0;}
+caption,th,td{text-align:left;font-weight:normal;}
+table,td,th{vertical-align:middle;}
+blockquote:before,blockquote:after,q:before,q:after{content:"";}
+blockquote,q{quotes:"" "";}
+a img{border:none;display:block;display:inline-block;}
+ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+body{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/body-gradient.png) repeat-x scroll 0 0 #e5e5e5;color:#333;font-family:verdana,helvetica,arial,sans-serif;font-size:75%;line-height:1.5em;}
+a{text-decoration:underline;color:#870000;}
+em{font-style:italic;}
+body{text-align:center;}
+.page,.home,.bar,.bc,.main,.footer{width:975px;}
+.page,.bar,.search,.fn,.lang,.bc,.main,.main-nav,.content,.service,.footer{position:relative;}
+.page{background-repeat:no-repeat;background-color:#fff;margin:auto;text-align:left;}
+.kopfbild{background-image:url(../kopfbilder/default.jpg);background-repeat:no-repeat;}
+.home{height:148px;}
+.home-img{width:975px;height:148px;}
+.logo-print{display:none;}
+.main{background-color:#fff;min-height:500px;height:auto !important;height:500px;}
+.contentcontainer{background-color:#fff;border-top:1px solid #d8d8d8;float:left;text-align:left;margin-left:20px;margin-right:20px;padding-bottom:20px;width:535px;}
+.contentcontainer-l{width:735px;}
+.contentcontainer-xl{width:975px;margin:0;}
+.page-startseite .contentcontainer{border-top:none;}
+.page-startseite .hauptinhalt{padding-top:10px;}
+.content{min-height:500px;height:auto !important;height:500px;}
+.hauptinhalt{margin-bottom:40px;}
+.service{background-color:#fff;float:right;width:200px;min-height:500px;height:auto !important;height:500px;}
+.user-html a{text-decoration:none;color:#333;}
+.user-html a:link,.user-html a:visited,.user-html a:hover{text-decoration:underline;color:#870000;}
+.user-html h1{clear:both;color:#000;font-family:georgia,times new roman,times,serif;font-size:1.833em;font-weight:normal;line-height:1.182em;margin:10px 0 35px 0;}
+.user-html h2{clear:both;color:#111;font-family:georgia,times new roman,times,serif;font-size:1.417em;line-height:1.176;font-weight:normal;margin:40px 0 15px 0;}
+.user-html h2 b,.user-html h2 strong{font-weight:normal;}
+.user-html h2 sup{font-size:.824em;vertical-align:45%;.vertical-align:super;}
+.user-html h2 sub{font-size:.824em;vertical-align:-20%;.vertical-align:sub;}
+.user-html h2.titelleiste{border-top:1px solid #d8d8d8;clear:both;color:#000;font-family:georgia,times new roman,times,serif;font-size:1.417em;line-height:1.176;font-weight:normal;margin:40px 0 15px 0;padding-top:4px;}
+.user-html h3{color:#404040;font-family:verdana,helvetica,arial,sans-serif;font-size:1em;line-height:1.25em;font-weight:bold;margin:25px 0 -5px 0;}
+.user-html h4{color:#808080;font-family:verdana,helvetica,arial,sans-serif;font-weight:bold;font-size:1em;line-height:1.25em;margin:20px 0 -10px 0;}
+.user-html h3 + img,.user-html h4 + img{margin-top:15px;}
+.user-html h1 a:link,.user-html h2 a:link,.user-html h3 a:link,.user-html h4 a:link,.user-html h1 a:visited,.user-html h2 a:visited,.user-html h3 a:visited,.user-html h4 a:visited{text-decoration:none;}
+.user-html h1 a:hover,.user-html h2 a:hover,.user-html h3 a:hover,.user-html h4 a:hover{text-decoration:underline;}
+.user-html img.left{float:left;margin:4px 10px 0 0;}
+.user-html img.right{float:right;margin:4px 0 0 10px;}
+.user-html form,.user-html p,.user-html table{margin-top:15px;margin-bottom:15px;}
+.user-html dl,.user-html ol,.user-html ul{margin-top:10px;margin-bottom:10px;}
+.user-html .eingerueckt{margin-left:20px;}
+.user-html .grau{color:#888;}
+.user-html .achtung{color:#990000;}
+.user-html em{font-style:italic;}
+.user-html table{border-collapse:collapse;width:100%;}
+.user-html th,.user-html td{border:1px solid #fff;padding:3px;vertical-align:top;font-size:1em;line-height:1.5em;white-space:normal;}
+.user-html table th{background-color:#d8d8d8;color:#444;font-weight:bold;font-size:.917em;line-height:1.273em;padding-top:5px;}
+.user-html table td{background-color:#f0f0f0;}
+.user-html .tabellerahmenlos td,.user-html .tabellerahmenlos th{border-color:transparent;background-color:transparent;}
+.user-html caption{color:#222;font-family:verdana,helvetica,arial,sans-serif;font-size:.917em;font-weight:bold;padding:15px 1px 5px 1px;text-align:left;}
+.user-html ol li,.user-html ul li{line-height:1.333em;margin:7px 0;}
+.user-html ol{padding-left:20px;margin-left:20px;}
+.user-html ul{margin-left:0;overflow:hidden;}
+.user-html ul ul{margin-left:20px;}
+.user-html ul li{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-bullets.png) no-repeat 6px 5px;padding-left:19px;}
+.user-html ul ul li{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-bullets.png) no-repeat -993px 6px;padding-left:19px;}
+.user-html .hinterlegt,.user-html .grauhinterlegt{background-color:#f0f0f0;padding:3px 5px;}
+.user-html .dunkelrot{color:#990000;font-weight:bold;}
+.user-html .bildunterschrift{clear:both;color:#666;display:block;padding-top:2px;margin-top:0;font-size:.917em;}
+.user-html p + p.bildunterschrift{margin-top:-15px;}
+.user-html hr{background:#d8d8d8;border:medium none #d8d8d8;color:#d8d8d8;height:1px;margin-top:15px;margin-bottom:15px;}
+.user-html small{font-size:.917em;}
+.user-html .document,.user-html .zip,.user-html .download{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -0px;padding-left:19px;}
+.user-html .pdf{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -100px;padding-left:19px;}
+.user-html .doc{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -200px;padding-left:19px;}
+.user-html .xls{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -300px;padding-left:19px;}
+.user-html .ppt{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -400px;padding-left:19px;}
+.user-html .audio{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -500px;padding-left:19px;}
+.user-html .video{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -600px;padding-left:19px;}
+.user-html pre{background-color:#f0f0f0;font-family:'courier new',courier,monospace;padding:3px 5px;margin-top:15px;}
+.user-html code{font-family:'courier new',courier,monospace;}
+.mod .g-h1,.mod .g-h2,.mod .g-titelleiste{clear:none;margin:0;}
+.g-col{float:left;}
+.g-grid-515 .g-col,.g-grid-715 .g-col,.g-grid-935 .g-col,.g-grid-955 .g-col{margin-left:10px;}
+.g-grid-535 .g-col,.g-grid-735 .g-col,.g-grid-895 .g-col,.g-grid-975 .g-col{margin-left:20px;}
+.g-grid-515 .g-1of2{width:253px;}
+.g-grid-515 .g-1of2-first{width:252px;margin-left:0;}
+.g-grid-535 .g-1of2{width:258px;}
+.g-grid-535 .g-1of2-first{width:257px;margin-left:0;}
+.g-grid-535 .g-1of2-small{width:245px;}
+.g-grid-715 .g-1of2{width:353px;}
+.g-grid-715 .g-1of2-first{width:352px;margin-left:0;}
+.g-grid-735 .g-1of2{width:358px;}
+.g-grid-735 .g-1of2-first{width:357px;margin-left:0;}
+.g-grid-895 .g-1of2{width:438px;}
+.g-grid-895 .g-1of2-first{width:437px;margin-left:0;}
+.g-grid-935 .g-1of2{width:463px;}
+.g-grid-935 .g-1of2-first{width:462px;margin-left:0;}
+.g-grid-955 .g-1of2{width:473px;}
+.g-grid-955 .g-1of2-first{width:472px;margin-left:0;}
+.g-grid-975 .g-1of2{width:478px;}
+.g-grid-975 .g-1of2-first{width:477px;margin-left:0;}
+.g-grid-515 .g-1of3{width:165px;}
+.g-grid-515 .g-2of3{width:340px;}
+.g-grid-515 .g-1of3-first{width:165px;margin-left:0;}
+.g-grid-515 .g-2of3-first{width:340px;margin-left:0;}
+.g-grid-535 .g-1of3{width:165px;}
+.g-grid-535 .g-2of3{width:350px;}
+.g-grid-535 .g-1of3-first{width:165px;margin-left:0;}
+.g-grid-535 .g-2of3-first{width:350px;margin-left:0;}
+.g-grid-715 .g-1of3{width:232px;}
+.g-grid-715 .g-2of3{width:474px;}
+.g-grid-715 .g-1of3-first{width:231px;margin-left:0;}
+.g-grid-715 .g-2of3-first{width:473px;margin-left:0;}
+.g-grid-735 .g-1of3{width:232px;}
+.g-grid-735 .g-2of3{width:484px;}
+.g-grid-735 .g-1of3-first{width:231px;margin-left:0;}
+.g-grid-735 .g-2of3-first{width:483px;margin-left:0;}
+.g-grid-895 .g-1of3{width:285px;}
+.g-grid-895 .g-2of3{width:590px;}
+.g-grid-895 .g-1of3-first{width:285px;margin-left:0;}
+.g-grid-895 .g-2of3-first{width:590px;margin-left:0;}
+.g-grid-935 .g-1of3{width:305px;}
+.g-grid-935 .g-2of3{width:610px;}
+.g-grid-935 .g-1of3-first{width:305px;margin-left:0;}
+.g-grid-935 .g-2of3-first{width:610px;margin-left:0;}
+.g-grid-955 .g-1of3{width:312px;}
+.g-grid-955 .g-2of3{width:634px;}
+.g-grid-955 .g-1of3-first{width:311px;margin-left:0;}
+.g-grid-955 .g-2of3-first{width:633px;margin-left:0;}
+.g-grid-975 .g-1of3{width:312px;}
+.g-grid-975 .g-2of3{width:644px;}
+.g-grid-975 .g-1of3-first{width:311px;margin-left:0;}
+.g-grid-975 .g-2of3-first{width:643px;margin-left:0;}
+.g-grid-515 .g-1of4{width:121px;}
+.g-grid-515 .g-2of4{width:252px;}
+.g-grid-515 .g-3of4{width:383px;}
+.g-grid-515 .g-1of4-first{width:122px;margin-left:0;}
+.g-grid-515 .g-2of4-first{width:253px;margin-left:0;}
+.g-grid-515 .g-3of4-first{width:384px;margin-left:0;}
+.g-grid-535 .g-1of4{width:119px;}
+.g-grid-535 .g-2of4{width:258px;}
+.g-grid-535 .g-3of4{width:397px;}
+.g-grid-535 .g-1of4-first{width:118px;margin-left:0;}
+.g-grid-535 .g-2of4-first{width:257px;margin-left:0;}
+.g-grid-535 .g-3of4-first{width:396px;margin-left:0;}
+.g-grid-535 .g-1of4-small{width:111px;}
+.g-grid-715 .g-1of4{width:171px;}
+.g-grid-715 .g-2of4{width:352px;}
+.g-grid-715 .g-3of4{width:533px;}
+.g-grid-715 .g-1of4-first{width:172px;margin-left:0;}
+.g-grid-715 .g-2of4-first{width:353px;margin-left:0;}
+.g-grid-715 .g-3of4-first{width:534px;margin-left:0;}
+.g-grid-735 .g-1of4{width:169px;}
+.g-grid-735 .g-2of4{width:358px;}
+.g-grid-735 .g-3of4{width:547px;}
+.g-grid-735 .g-1of4-first{width:168px;margin-left:0;}
+.g-grid-735 .g-2of4-first{width:357px;margin-left:0;}
+.g-grid-735 .g-3of4-first{width:546px;margin-left:0;}
+.g-grid-895 .g-1of4{width:209px;}
+.g-grid-895 .g-2of4{width:438px;}
+.g-grid-895 .g-3of4{width:667px;}
+.g-grid-895 .g-1of4-first{width:208px;margin-left:0;}
+.g-grid-895 .g-2of4-first{width:437px;margin-left:0;}
+.g-grid-895 .g-3of4-first{width:666px;margin-left:0;}
+.g-grid-935 .g-1of4{width:226px;}
+.g-grid-935 .g-2of4{width:452px;}
+.g-grid-935 .g-3of4{width:678px;}
+.g-grid-935 .g-1of4-first{width:227px;margin-left:0;}
+.g-grid-935 .g-2of4-first{width:453px;margin-left:0;}
+.g-grid-935 .g-3of4-first{width:679px;margin-left:0;}
+.g-grid-955 .g-1of4{width:231px;}
+.g-grid-955 .g-2of4{width:472px;}
+.g-grid-955 .g-3of4{width:713px;}
+.g-grid-955 .g-1of4-first{width:232px;margin-left:0;}
+.g-grid-955 .g-2of4-first{width:473px;margin-left:0;}
+.g-grid-955 .g-3of4-first{width:714px;margin-left:0;}
+.g-grid-975 .g-1of4{width:229px;}
+.g-grid-975 .g-2of4{width:478px;}
+.g-grid-975 .g-3of4{width:727px;}
+.g-grid-975 .g-1of4-first{width:228px;margin-left:0;}
+.g-grid-975 .g-2of4-first{width:477px;margin-left:0;}
+.g-grid-975 .g-3of4-first{width:726px;margin-left:0;}
+.g-grid-515 .g-1of5{width:95px;}
+.g-grid-515 .g-2of5{width:200px;}
+.g-grid-515 .g-3of5{width:305px;}
+.g-grid-515 .g-4of5{width:410px;}
+.g-grid-515 .g-1of5-first{width:95px;margin-left:0;}
+.g-grid-515 .g-2of5-first{width:200px;margin-left:0;}
+.g-grid-515 .g-3of5-first{width:305px;margin-left:0;}
+.g-grid-515 .g-4of5-first{width:410px;margin-left:0;}
+.g-grid-535 .g-1of5{width:91px;}
+.g-grid-535 .g-2of5{width:202px;}
+.g-grid-535 .g-3of5{width:313px;}
+.g-grid-535 .g-4of5{width:424px;}
+.g-grid-535 .g-1of5-first{width:91px;margin-left:0;}
+.g-grid-535 .g-2of5-first{width:202px;margin-left:0;}
+.g-grid-535 .g-3of5-first{width:313px;margin-left:0;}
+.g-grid-535 .g-4of5-first{width:424px;margin-left:0;}
+.g-grid-715 .g-1of5{width:135px;}
+.g-grid-715 .g-2of5{width:280px;}
+.g-grid-715 .g-3of5{width:425px;}
+.g-grid-715 .g-4of5{width:570px;}
+.g-grid-715 .g-1of5-first{width:135px;margin-left:0;}
+.g-grid-715 .g-2of5-first{width:280px;margin-left:0;}
+.g-grid-715 .g-3of5-first{width:425px;margin-left:0;}
+.g-grid-715 .g-4of5-first{width:570px;margin-left:0;}
+.g-grid-735 .g-1of5{width:131px;}
+.g-grid-735 .g-2of5{width:282px;}
+.g-grid-735 .g-3of5{width:433px;}
+.g-grid-735 .g-4of5{width:584px;}
+.g-grid-735 .g-1of5-first{width:131px;margin-left:0;}
+.g-grid-735 .g-2of5-first{width:282px;margin-left:0;}
+.g-grid-735 .g-3of5-first{width:433px;margin-left:0;}
+.g-grid-735 .g-4of5-first{width:584px;margin-left:0;}
+.g-grid-895 .g-1of5{width:163px;}
+.g-grid-895 .g-2of5{width:346px;}
+.g-grid-895 .g-3of5{width:529px;}
+.g-grid-895 .g-4of5{width:732px;}
+.g-grid-895 .g-1of5-first{width:163px;margin-left:0;}
+.g-grid-895 .g-2of5-first{width:346px;margin-left:0;}
+.g-grid-895 .g-3of5-first{width:529px;margin-left:0;}
+.g-grid-895 .g-4of5-first{width:732px;margin-left:0;}
+.g-grid-935 .g-1of5{width:179px;}
+.g-grid-935 .g-2of5{width:358px;}
+.g-grid-935 .g-3of5{width:537px;}
+.g-grid-935 .g-4of5{width:716px;}
+.g-grid-935 .g-1of5-first{width:179px;margin-left:0;}
+.g-grid-935 .g-2of5-first{width:358px;margin-left:0;}
+.g-grid-935 .g-3of5-first{width:537px;margin-left:0;}
+.g-grid-935 .g-4of5-first{width:716px;margin-left:0;}
+.g-grid-955 .g-1of5{width:183px;}
+.g-grid-955 .g-2of5{width:376px;}
+.g-grid-955 .g-3of5{width:569px;}
+.g-grid-955 .g-4of5{width:762px;}
+.g-grid-955 .g-1of5-first{width:183px;margin-left:0;}
+.g-grid-955 .g-2of5-first{width:376px;margin-left:0;}
+.g-grid-955 .g-3of5-first{width:569px;margin-left:0;}
+.g-grid-955 .g-4of5-first{width:762px;margin-left:0;}
+.g-grid-975 .g-1of5{width:179px;}
+.g-grid-975 .g-2of5{width:378px;}
+.g-grid-975 .g-3of5{width:577px;}
+.g-grid-975 .g-4of5{width:776px;}
+.g-grid-975 .g-1of5-first{width:179px;margin-left:0;}
+.g-grid-975 .g-2of5-first{width:378px;margin-left:0;}
+.g-grid-975 .g-3of5-first{width:577px;margin-left:0;}
+.g-grid-975 .g-4of5-first{width:776px;margin-left:0;}
+.g-grid-715 .g-1of6{width:111px;}
+.g-grid-715 .g-2of6{width:232px;}
+.g-grid-715 .g-3of6{width:353px;}
+.g-grid-715 .g-4of6{width:474px;}
+.g-grid-715 .g-5of6{width:595px;}
+.g-grid-715 .g-1of6-first{width:110px;margin-left:0;}
+.g-grid-715 .g-2of6-first{width:231px;margin-left:0;}
+.g-grid-715 .g-3of6-first{width:352px;margin-left:0;}
+.g-grid-715 .g-4of6-first{width:473px;margin-left:0;}
+.g-grid-715 .g-5of6-first{width:594px;margin-left:0;}
+.g-grid-735 .g-1of6{width:106px;}
+.g-grid-735 .g-2of6{width:232px;}
+.g-grid-735 .g-3of6{width:358px;}
+.g-grid-735 .g-4of6{width:484px;}
+.g-grid-735 .g-5of6{width:610px;}
+.g-grid-735 .g-1of6-first{width:105px;margin-left:0;}
+.g-grid-735 .g-2of6-first{width:231px;margin-left:0;}
+.g-grid-735 .g-3of6-first{width:357px;margin-left:0;}
+.g-grid-735 .g-4of6-first{width:483px;margin-left:0;}
+.g-grid-735 .g-5of6-first{width:609px;margin-left:0;}
+.g-grid-955 .g-1of6{width:151px;}
+.g-grid-955 .g-2of6{width:312px;}
+.g-grid-955 .g-3of6{width:473px;}
+.g-grid-955 .g-4of6{width:634px;}
+.g-grid-955 .g-5of6{width:795px;}
+.g-grid-955 .g-1of6-first{width:150px;margin-left:0;}
+.g-grid-955 .g-2of6-first{width:311px;margin-left:0;}
+.g-grid-955 .g-3of6-first{width:472px;margin-left:0;}
+.g-grid-955 .g-4of6-first{width:633px;margin-left:0;}
+.g-grid-955 .g-5of6-first{width:794px;margin-left:0;}
+.g-grid-975 .g-1of6{width:146px;}
+.g-grid-975 .g-2of6{width:312px;}
+.g-grid-975 .g-3of6{width:478px;}
+.g-grid-975 .g-4of6{width:644px;}
+.g-grid-975 .g-5of6{width:810px;}
+.g-grid-975 .g-1of6-first{width:145px;margin-left:0;}
+.g-grid-975 .g-2of6-first{width:311px;margin-left:0;}
+.g-grid-975 .g-3of6-first{width:477px;margin-left:0;}
+.g-grid-975 .g-4of6-first{width:643px;margin-left:0;}
+.g-grid-975 .g-5of6-first{width:809px;margin-left:0;}
+.g-h1,.user-html .g-h1{clear:both;color:#000;font-family:georgia,times new roman,times,serif;font-size:1.833em;font-weight:normal;line-height:1.167em;margin:10px 0 35px 0;}
+.g-h2,.user-html .g-h2{clear:both;color:#111;font-family:georgia,times new roman,times,serif;font-size:1.417em;line-height:1.176em;font-weight:normal;margin:40px 0 0 0;}
+.g-h3,.user-html .g-h3{color:#444;font-family:verdana,helvetica,arial,sans-serif;font-size:1em;font-weight:bold;line-height:1.25em;margin:25px 0 0 0;}
+.g-h4,.user-html .g-h4{color:#808080;font-family:verdana,helvetica,arial,sans-serif;font-weight:bold;font-size:1em;line-height:1.25em;margin:20px 0 0 0;}
+.g-h5,.user-html .g-h5{color:#999;font-family:verdana,helvetica,arial,sans-serif;font-size:.917em;font-weight:bold;margin:15px 0 -10px 0;}
+.g-h6,.user-html .g-h6{color:#777;font-family:verdana,helvetica,arial,sans-serif;font-size:.833em;font-weight:bold;margin:15px 0 -10px 0;}
+.g-titelleiste,.user-html .g-titelleiste{border-top:1px solid #d8d8d8;clear:both;color:#000;font-family:georgia,times new roman,times,serif;font-size:1.333em;font-weight:normal;margin:40px 0 3px 0;padding:4px 0 0 0;}
+.g-subheading,.user-html .g-subheading{clear:both;color:#333;font-family:georgia,times new roman,times,serif;font-size:1.333em;line-height:1.1875em;font-weight:normal;}
+.g-dachzeile,.user-html .g-dachzeile{color:#666;;font-size:.917em;line-height:1.2em;padding:3px;padding-left:0;}
+.g-heading-layoutblock,.user-html .g-heading-layoutblock{border-bottom:1px solid #d8d8d8;clear:both;color:#000;font-family:georgia,times new roman,times,serif;font-size:1.333em;font-weight:normal;margin:30px 0 15px 0;padding:0 0 4px 0;}
+.g-area-heading{position:absolute;left:-5000px;}
+.g-p,.user-html .g-p{margin-top:15px;}
+.g-address{font-style:normal;font-weight:normal;}
+.g-label,.user-html .g-label{font-size:.917em;font-weight:bold;}
+.g-imgcaption,.user-html .g-imgcaption{background-color:#f0f0f0;color:#666;font-size:.917em;line-height:1.2em;padding:3px;}
+.g-imgcaption-s,.user-html .g-imgcaption-s{background-color:#f0f0f0;color:#666;font-family:helvetica,arial,sans-serif;font-size:.833em;line-height:1.2em;padding:3px;}
+.g-h1 a,.user-html .g-h1 a:link,.user-html .g-h1 a:visited,.g-h2 a,.user-html .g-h2 a:link,.user-html .g-h2 a:visited,.g-h3 a,.user-html .g-h3 a:link,.user-html .g-h3 a:visited,.g-h4 a,.user-html .g-h4 a:link,.user-html .g-h4 a:visited,.g-h5 a,.user-html .g-h5 a:link,.user-html .g-h5 a:visited,.g-h6 a,.user-html .g-h6 a:link,.user-html .g-h6 a:visited,.g-titelleiste a,.user-html .g-titelleiste a:link,.user-html .g-titelleiste a:visited{text-decoration:none;}
+.g-h1 a:hover,.user-html .g-h1 a:hover,.g-h2 a:hover,.user-html .g-h2 a:hover,.g-h3 a:hover,.user-html .g-h3 a:hover,.g-h4 a:hover,.user-html .g-h4 a:hover,.g-h5 a:hover,.user-html .g-h5 a:hover,.g-h6 a:hover,.user-html .g-h6 a:hover,.g-titelleiste a:hover,.user-html .g-titelleiste a:hover{text-decoration:underline;}
+a.g-link-all,.user-html a.g-link-all:link,.user-html a.g-link-all:visited,a.g-link-more,.user-html a.g-link-more:link,.user-html a.g-link-more:visited{font-size:.917em;}
+a.g-fnlink-top,.user-html a.g-fnlink-top:link,.user-html a.g-fnlink-top:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat right -399px;color:#666;display:block;font-size:.917em;line-height:1.182em;margin-top:15px;padding-right:15px;text-align:right;text-decoration:none;}
+a.g-fnlink-top:hover,.user-html a.g-fnlink-top:hover{text-decoration:underline;}
+a.g-fnlink-mail,.user-html a.g-fnlink-mail:link,.user-html a.g-fnlink-mail:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left 0;color:#666;font-size:.917em;line-height:1.182em;padding-left:15px;padding-bottom:1px;}
+a.g-fnlink-plus,.user-html a.g-fnlink-plus:link,.user-html a.g-fnlink-plus:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -99px;color:#666;font-size:.917em;line-height:1.182em;padding-left:15px;padding-bottom:1px;}
+a.g-fnlink-minus,.user-html a.g-fnlink-minus:link,.user-html a.g-fnlink-minus:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -198px;color:#666;font-size:.917em;line-height:1.182em;padding-left:15px;padding-bottom:1px;}
+a.g-fnlink-next,.user-html a.g-fnlink-next:link,.user-html a.g-fnlink-next:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat right -299px;color:#666;font-size:.917em;line-height:1.182em;padding-right:15px;padding-bottom:1px;}
+a.g-fnlink-prev,.user-html a.g-fnlink-prev:link,.user-html a.g-fnlink-prev:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -399px;color:#666;font-size:.917em;line-height:1.182em;padding-left:15px;padding-bottom:1px;}
+a.g-fnlink-up,.user-html a.g-fnlink-up:link,.user-html a.g-fnlink-up:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -499px;color:#666;font-size:.917em;line-height:1.182em;padding-left:15px;padding-bottom:1px;}
+a.g-fnlink-down,.user-html a.g-fnlink-down:link,.user-html a.g-fnlink-down:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -599px;color:#666;font-size:.917em;line-height:1.182em;padding-left:15px;padding-bottom:1px;}
+a.g-link-mail,.user-html a.g-link-mail:link,.user-html a.g-link-mail:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left 2px;padding-left:15px;}
+a.g-link-plus,.user-html a.g-link-plus:link,.user-html a.g-link-plus:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -98px;padding-left:15px;}
+a.g-link-minus,.user-html a.g-link-minus:link,.user-html a.g-link-minus:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -198px;padding-left:15px;}
+a.g-link-go,.user-html a.g-link-go:link,.user-html a.g-link-go:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -298px;padding-left:15px;}
+a.g-link-next,.user-html a.g-link-next:link,.user-html a.g-link-next:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat right -298px;padding-right:15px;}
+a.g-link-prev,.user-html a.g-link-prev:link,.user-html a.g-link-prev:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -398px;padding-left:15px;}
+a.g-link-up,.user-html a.g-link-up:link,.user-html a.g-link-up:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -498px;padding-left:15px;}
+a.g-link-down,.user-html a.g-link-down:link,.user-html a.g-link-down:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -598px;padding-left:15px;}
+.g-link-tel,.user-html .g-link-tel{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -698px;padding-left:15px;}
+a.g-link-highlight,.user-html a.g-link-highlight:link,.user-html a.g-link-highlight:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left -298px;padding-left:15px;}
+a.g-link-cal,.user-html a.g-link-cal:link,.user-html a.g-link-cal:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat left -500px;padding-left:15px;}
+a.g-link-document,.user-html a.g-link-document:link,.user-html a.g-link-document:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px 0;padding-left:15px;}
+a.g-link-pdf,.user-html a.g-link-pdf:link,.user-html a.g-link-pdf:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -100px;padding-left:15px;}
+a.g-link-rss,.user-html a.g-link-rss:link,.user-html a.g-link-rss:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat 0 -298px;padding-left:16px;}
+.g-titelleiste a.g-link-pdf,.user-html .g-titelleiste a.g-link-pdf:link,.user-html .g-titelleiste a.g-link-pdf:visited{background-position:-1px -98px;}
+a.g-link-doc,.user-html a.g-link-doc:link,.user-html a.g-link-doc:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -200px;padding-left:15px;}
+a.g-link-xls,.user-html a.g-link-xls:link,.user-html a.g-link-xls:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -300px;padding-left:15px;}
+a.g-link-ppt,.user-html a.g-link-ppt:link,.user-html a.g-link-ppt:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -400px;padding-left:15px;}
+a.g-link-audio,.user-html a.g-link-audio:link,.user-html a.g-link-audio:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -500px;padding-left:15px;}
+a.g-link-video,.user-html a.g-link-video:link,.user-html a.g-link-video:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -600px;padding-left:15px;}
+a.g-link-login,.user-html a.g-link-login:link,.user-html a.g-link-login:visited{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -1000px;padding-left:15px;}
+.g-link-box,.user-html .g-link-box,a.g-link-box,.user-html a.g-link-box:link,.user-html a.g-link-box:visited{background-color:#fff;border:1px solid #c8c8c8;display:inline-block;overflow:visible;padding:2px 5px;width:auto;text-decoration:none;}
+a.g-link-box:hover,.user-html a.g-link-box:hover{text-decoration:underline;border-color:#a8a8a8;background-color:#e4e4e4;}
+.g-link-box-selected,.user-html .g-link-box-selected,a.g-link-box-selected,.user-html a.g-link-box-selected:link,.user-html a.g-link-box-selected:visited{border-color:#870000;background-color:#870000;color:#fff;font-weight:bold;}
+.g-link-button,.user-html .g-link-button,a.g-link-button,.user-html a.g-link-button:link,.user-html a.g-link-button:visited{background-color:#f0f0f0;background-repeat:no-repeat;border:1px solid #c8c8c8;border-radius:3px 3px 3px 3px;box-shadow:0 1px 3px 0 rgba(0,0,0,0.25);-webkit-box-shadow:rgba(0,0,0,0.25) 0 1px 3px 0;cursor:pointer;display:inline-block;overflow:visible;padding:5px 10px;text-shadow:0 1px 1px rgba(0,0,0,0.1);width:auto;font-weight:bold;font-family:arial,sans-serif;text-decoration:none;}
+a.g-link-button:hover,.user-html a.g-link-button:hover{text-decoration:underline;border-color:#a8a8a8;background-color:#e4e4e4;}
+a.g-link-button-go,.user-html a.g-link-button-go:link,.user-html a.g-link-button-go:visited{background-image:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-form.png);background-position:8px -394px;padding-left:30px;}
+a.g-link-button-download,.user-html a.g-link-button-download:link,.user-html a.g-link-button-download:visited{background-image:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-form.png);background-position:8px -194px;padding-left:30px;}
+a.g-link-button-inverse,.user-html a.g-link-button-inverse:link,.user-html a.g-link-button-inverse:visited{border:1px solid #870000;background-color:#870000;color:#fff;}
+a.g-link-button-inverse:hover,.user-html a.g-link-button-inverse:hover{border:1px solid #870000;background-color:#870000;color:#fff;}
+a.g-link-button-inverse-go,.user-html a.g-link-button-inverse-go:link,.user-html a.g-link-button-inverse-go:visited{background-image:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-form.png);background-position:8px -494px;padding-left:30px;}
+a.g-link-button-inverse-download,.user-html a.g-link-button-inverse-download:link,.user-html a.g-link-button-inverse-download:visited{background-image:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-form.png);background-position:8px -294px;padding-left:30px;}
+a.g-underline-hover,.user-html a.g-underline-hover:link,.user-html a.g-underline-hover:visited{text-decoration:none;}
+a.g-underline-hover:hover,.user-html a.g-underline-hover:hover{text-decoration:underline;}
+.g-dl,.user-html .g-dl{margin-top:10px;}
+.g-ol,.user-html .g-ol{list-style:decimal;padding-left:20px;margin-left:20px;margin-top:10px;overflow:hidden;}
+.g-ol li,.user-html .g-ol li,.g-ul li,.user-html .g-ul li,.g-ul-s li,.user-html .g-ul-s li{line-height:1.333em;margin:7px 0;}
+.g-ul,.user-html .g-ul{margin-left:0;margin-top:10px;overflow:hidden;}
+.g-ul li,.user-html .g-ul li,.uitem,.user-html .uitem{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-bullets.png) no-repeat 6px 5px;padding-left:19px;}
+.g-ul-s li,.user-html .g-ul-s li,.uitem-s,.user-html .uitem-s{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-bullets.png) no-repeat -993px 6px;padding-left:17px;}
+.g-ul-wide li,.user-html .g-ul-wide li{margin:15px 0;}
+.g-ul-wide-l li,.user-html .g-ul-wide-l li{margin:20px 0;}
+.g-ul-wide-xl li,.user-html .g-ul-wide-xl li{margin:30px 0;}
+.g-ul-compact,.user-html .g-ul-compact{margin-top:5px;}
+.g-ul-compact li,.user-html .g-ul-compact li{margin:2px 0;}
+.g-ul-s-teaser,.user-html .g-ul-s-teaser{margin:0;}
+.g-ul-s-teaser li,.user-html .g-ul-s-teaser li{margin:0 0 5px 0;background-position:-999px 6px;padding-left:11px;}
+.g-ul-s-baukasten,.user-html .g-ul-s-baukasten{margin:0;}
+.g-ul-s-baukasten li,.user-html .g-ul-s-baukasten li{margin:0 0 5px 0;background-position:-999px 6px;padding-left:16px;}
+.g-linklist a:link,.user-html .g-linklist a:link,.g-linklist a:visited,.user-html .g-linklist a:visited{text-decoration:none !important;}
+.g-linklist a:hover,.user-html .g-linklist a:hover{text-decoration:underline !important;}
+.g-anchornav-h,.user-html .g-anchornav-h{overflow:auto;}
+.g-anchornav-h li,.user-html .g-anchornav-h li{display:inline;}
+.g-anchornav-h .g-link-box,.user-html .g-anchornav-h .g-link-box,.g-anchornav-h a.g-link-box,.user-html .g-anchornav-h a.g-link-box:link,.g-anchornav-h a.g-link-box:visited,.user-html .g-anchornav-h a.g-link-box:visited{margin:0 3px 3px 0;}
+li.g-li-mail{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left 2px !important;}
+li.g-li-document{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px 0 !important;}
+li.g-li-pdf{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -100px !important;}
+li.g-li-rss{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat 0 -298px !important;}
+li.g-li-doc{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -200px !important;}
+li.g-li-xls{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -300px !important;}
+li.g-li-ppt{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -400px !important;}
+li.g-li-audio{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -500px !important;}
+li.g-li-video{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -600px !important;}
+li.g-li-login{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -1000px !important;}
+.g-caption,.user-html .g-caption{color:#666;font-size:.917em;line-height:1.273em;margin-top:15px;padding-bottom:5px;}
+.g-table,.user-html .g-table{border-collapse:collapse;width:100%;margin-top:15px;}
+.g-table-fixed,.user-html .g-table-fixed{table-layout:fixed;}
+.g-table th,.user-html .g-table th,.g-table td,.user-html .g-table td{border:1px solid #fff;padding:3px;vertical-align:top;font-size:1em;line-height:1.5em;white-space:normal;}
+.g-table th,.user-html .g-table th{background-color:#d8d8d8;color:#444;font-weight:bold;font-size:.917em;line-height:1.273em;padding-top:5px;}
+.g-table th .g-label,.user-html .g-table th .g-label{font-size:1em;line-height:1.5em;}
+.g-table td,.user-html .g-table td{background-color:#f0f0f0;}
+.g-odd td,.user-html .g-odd td{background-color:#f0f0f0;}
+.g-even td,.user-html .g-even td{background-color:#e4e4e4;}
+.g-table-border-h th,.g-table-border-h td,.user-html .g-table-border-h th,.user-html .g-table-border-h td{border:none;border-bottom:1px solid #fff;}
+.g-table-border-h th,.user-html .g-table-border-h th{border:none;border-bottom:1px solid #fff;}
+.g-table-no-border th,.user-html .g-table-no-border th,.g-table-no-border td,.user-html .g-table-no-border td{border:none;}
+.g-table-gap-right-s th,.g-table-gap-right-s td,.user-html .g-table-gap-right-s th,.user-html .g-table-gap-right-s td{padding-right:13px;}
+.g-table-gap-right-l th,.user-html .g-table-gap-right-l td{padding-right:23px;}
+.g-table-address th,.user-html .g-table-address th{background:transparent;border:none;padding:1px;padding-right:20px;line-height:1.636em;white-space:nowrap;}
+.g-table-address td,.user-html .g-table-address td{background:transparent;border:none;width:95%;padding:1px;}
+.g-vertical-top,.user-html .g-vertical-top{vertical-align:top;}
+.g-table-layout,.user-html .g-table-layout{border-collapse:collapse;width:555px;margin:0;}
+.g-table-layout td,.user-html .g-table-layout td{background-color:transparent;border:0;border-right:20px solid transparent;overflow:hidden;padding:0;vertical-align:top;}
+.g-table-layout-2 td,.user-html .g-table-layout-2 td{width:267px;}
+.g-table-layout-3 td,.user-html .g-table-layout-3 td{width:178px;}
+.g-table-layout-4 td,.user-html .g-table-layout-4 td{width:134px;}
+.g-table-layout-5 td,.user-html .g-table-layout-5 td{width:107px;}
+.contentcontainer-l .g-table-layout,.contentcontainer-l .user-html .g-table-layout{width:755px;}
+.contentcontainer-l .g-table-layout-2 td,.contentcontainer-l .user-html .g-table-layout-2 td{width:367px;}
+.contentcontainer-l .g-table-layout-3 td,.contentcontainer-l .user-html .g-table-layout-3 td{width:245px;}
+.contentcontainer-l .g-table-layout-4 td,.contentcontainer-l .user-html .g-table-layout-4 td{width:184px;}
+.contentcontainer-l .g-table-layout-5 td,.contentcontainer-l .user-html .g-table-layout-5 td{width:147px;}
+.g-table-layout-vertical-bottom td,.user-html .g-table-layout-vertical-bottom td{vertical-align:bottom;}
+.g-table-layout-vertical-middle td,.user-html .g-table-layout-vertical-middle td{vertical-align:middle;}
+.g-table-layout-horizontal-center td,.user-html .g-table-layout-horizontal-center td{text-align:center;}
+.g-form{background-color:#f0f0f0;font-family:helvetica,arial,sans-serif;padding:15px;margin-top:15px;}
+.g-form .g-label{display:block;margin-top:20px;font-size:1em !important;}
+.g-form .g-table .g-label{margin-top:0;display:inline;}
+.g-form .g-field{display:inline-block;}
+.g-form .g-field-text,.g-form .g-field-textarea,.g-form .g-field-select{border:1px solid #999;-moz-border-radius:2px;border-radius:2px;padding:4px;}
+.g-form .g-field-text,.g-form .g-field-textarea,.g-form .g-field-file{font-size:1.167em;font-family:helvetica,arial,sans-serif;padding:4px;width:100%;.width:95%;}
+.g-form .g-field-textarea{height:60px;}
+.g-form .g-fieldset,.g-form .g-fieldset-2{border:1px solid #c8c8c8;border-radius:4px;margin:15px 0;padding:14px;-moz-border-radius:4px;-webkit-border-radius:4px;.margin-top:5px;}
+.g-form .g-fieldset-2{border-color:#d8d8d8;}
+.g-form .g-legend,.g-form .g-legend-2{color:#666;font-size:1.333em;font-family:georgia,times new roman,times,serif;font-weight:normal;padding:0 5px;-moz-border-radius:4px;-webkit-border-radius:4px;.margin-bottom:10px;}
+.g-form .g-legend-2{font-family:helvetica,arial,sans-serif;font-size:1em;font-weight:bold;color:#808080;}
+.g-form .g-table{width:auto;font-size:1em;margin:0;border-spacing:0;.table-layout:fixed;}
+.g-form .g-table th{font-size:1em;}
+.g-form .g-table .g-label-container,.g-form .g-table .g-field-container{background:none;border:none;vertical-align:middle;padding:4px 0;}
+.g-form .g-table .g-label-container{padding-right:1em;white-space:nowrap;font-weight:normal;padding-top:9px;.width:25%;}
+.g-form .g-table .g-field-container{width:100%     .width:75%;}
+.g-form .g-table .g-vertical-top{vertical-align:top;padding-top:6px;}
+.g-form .g-readonly{background-color:#e4e4e4;color:#777;border:1px solid #aaa;}
+.g-form .g-field.g-alert,.g-form .g-alert .g-field{background-color:#fee;color:#900;border-color:#966;}
+.g-form .g-label-container.g-alert,.g-form .g-alert .g-label-container{color:#900;}
+.g-form .g-flag-required{color:#900;font-size:1.167em !important;}
+.g-form .g-checklist{padding-left:20px;}
+.g-form .g-checklist .g-label{font-weight:normal;margin-top:0;display:inline;}
+.g-form .g-checklist li{line-height:1.25em;margin:7px 0;padding:0;background:none;}
+.g-form .g-checklist .g-field-radio,.g-form .g-checklist .g-field-checkbox{margin:0 2px 0 -22px;top:0;width:20px;}
+.g-form .g-fieldwidth-xs{width:20px;}
+.g-form .g-fieldwidth-s{width:50px;}
+.g-form .g-fieldwidth-m{width:100px;}
+.g-form .g-fieldwidth-l{width:200px;}
+.g-form .g-fieldwidth-xl{width:300px;}
+.g-form .g-fieldwidth-xxl{width:400px;}
+.g-form .g-fieldheight-xs{height:20px;}
+.g-form .g-fieldheight-s{height:50px;}
+.g-form .g-fieldheight-m{height:100px;}
+.g-form .g-fieldheight-l{height:200px;}
+.g-form .g-fieldheight-xl{height:300px;}
+.g-form .g-fieldheight-xxl{height:400px;}
+.g-button{background-color:#fff;border:1px solid #bbb;border-radius:3px 3px 3px 3px;box-shadow:0 1px 3px 0 rgba(0,0,0,0.33);-webkit-box-shadow:rgba(0,0,0,0.33) 0 1px 3px 0;color:#333 !important;cursor:pointer;display:inline-block;font-family:helvetica,arial,sans-serif;font-size:1em;font-weight:bold;line-height:1.333em;overflow:visible;padding:6px 10px 4px 10px;.padding:3px 10px;text-decoration:none !important;text-shadow:0 1px 1px rgba(0,0,0,0.1);width:auto;}
+.g-button-ok{background-image:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-form.png);background-repeat:no-repeat;background-position:8px 5px;.background-position:8px 4px;padding-left:30px;}
+.g-button-ok:hover{background-color:#E6EFC2;border:1px solid #C6D880;color:#529214 !important;}
+.g-button-cancel{background-image:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-form.png);background-repeat:no-repeat;background-position:8px -95px;.background-position:8px -96px;padding-left:30px;}
+.g-button-cancel:hover{background-color:#FBE3E4;border:1px solid #FBC2C4;color:#D12F19;}
+.g-button-cancel:active{background-color:#D12F19;border:1px solid #D12F19;color:white !important;}
+.contentcontainer .g-form .g-table{width:495px;}
+.contentcontainer-l .g-form .g-table{width:695px;}
+.contentcontainer .g-form .g-fieldset .g-table{width:465px;}
+.contentcontainer-l .g-form .g-fieldset .g-table{width:665px;}
+.contentcontainer .g-form .g-fieldset-2 .g-table{width:435px;}
+.contentcontainer-l .g-form .g-fieldset-2 .g-table{width:635px;}
+.g-service-item{margin-bottom:20px;}
+.g-service-hd{background:#e0e0e0;color:#111;font-family:verdana,helvetica,arial,sans-serif;font-size:.917em;font-weight:normal;line-height:1.25em;margin:0;padding:3px 5px;text-transform:uppercase;}
+.g-service-bd{margin-top:1px;}
+.g-teaser-s-rss,.user-html .g-teaser-s-rss{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/teaser-rss-s.png) no-repeat;}
+.g-box,.user-html .g-box{background:#f0f0f0;border:1px solid #c8c8c8;}
+.g-box-alert,.user-html .g-box-alert{background-color:#fff2f2;border-color:#cc7a7a;}
+.g-box-message,.user-html .g-box-message{background-color:#fffde5;border-color:#d9d177;}
+.g-box-ok,.user-html .g-box-ok{background-color:#ccffcc;border-color:#7acc7a;}
+.g-hr,.user-html .g-hr{background:#d8d8d8;border:medium none #d8d8d8;color:#d8d8d8;height:1px;margin-top:15px;margin-bottom:15px;}
+.g-media-left,.user-html .g-media-left{float:left;margin:4px 10px 0 0;width:auto;}
+.g-media-right,.user-html .g-media-right{float:right;margin:4px 0 0 10px;width:auto;}
+.g-textalign-left{text-align:left !important;}
+.g-textalign-right{text-align:right !important;}
+.g-textalign-center{text-align:center !important;}
+.g-textalign-justify{text-align:justify !important;}
+.g-fontsize-xs{font-size:.833em !important;line-height:1.5em !important;}
+.g-fontsize-s{font-size:.917em !important;line-height:1.545em !important;}
+.g-fontsize-l{font-size:1.167em !important;line-height:1.143em !important;}
+.g-font-normal{font-weight:normal !important;}
+.g-font-bold{font-weight:bold !important;}
+.g-uppercase{text-transform:uppercase !important;}
+.g-lowercase{text-transform:lowercase !important;}
+.g-nowrap{white-space:nowrap !important;}
+.g-color-text{color:#333 !important;}
+.g-color-dark{color:#000 !important;}
+.g-color-medium{color:#666 !important;}
+.g-color-light{color:#808080 !important;}
+.g-color-alert{color:#990000 !important;}
+.g-color-ok{color:#009900 !important;}
+.g-document{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -0px !important;}
+.g-pdf{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -100px !important;}
+.g-doc{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -200px !important;}
+.g-xls{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -300px !important;}
+.g-ppt{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -400px !important;}
+.g-audio{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -500px !important;}
+.g-video{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-symbols.png) no-repeat -1px -600px !important;}
+.g-bg{background-color:#f0f0f0 !important;}
+.g-bg-dark{background-color:#d8d8d8 !important;}
+.g-bg-light{background-color:#e4e4e4 !important;}
+.g-bg-alert{background-color:#ffeeee !important;}
+.g-bg-message{background-color:#fffbcc !important;}
+.g-bg-ok{background-color:#ccffcc !important;}
+.g-highlight{background-color:#ffff00 !important;}
+.g-border-all{border:1px solid #c8c8c8 !important;}
+.g-border-top{border-top:1px solid #c8c8c8 !important;}
+.g-border-right{border-right:1px solid #c8c8c8 !important;}
+.g-border-bottom{border-bottom:1px solid #c8c8c8 !important;}
+.g-border-left{border-left:1px solid #c8c8c8 !important;}
+.g-border-alert{border-color:#cc7a7a !important;}
+.g-border-message{border-color:#d9d177 !important;}
+.g-border-ok{border-color:#7acc7a !important;}
+.g-line-all{border:1px solid #d8d8d8 !important;}
+.g-line-top{border-top:1px solid #d8d8d8 !important;}
+.g-line-right{border-right:1px solid #d8d8d8 !important;}
+.g-line-bottom{border-bottom:1px solid #d8d8d8 !important;}
+.g-line-left{border-left:1px solid #d8d8d8 !important;}
+.g-hidden,.no_web{display:none !important;}
+.g-invisible{visibility:hidden !important;}
+.g-off-viewport{position:absolute !important;left:-5000px !important;}
+.g-display-block{display:block !important;}
+.g-display-inline{display:inline !important;}
+.g-float-left{float:left !important;}
+.g-float-right{float:right !important;}
+.g-clear{clear:both !important;}
+.g-center{margin-left:auto !important;margin-right:auto !important;}
+.g-verticalalign-top{vertical-align:top;}
+.g-verticalalign-baseline{vertical-align:baseline;}
+.g-margin-1{margin:1px !important;}
+.g-margin-xxs{margin:3px !important;}
+.g-margin-xs{margin:5px !important;}
+.g-margin-s{margin:10px !important;}
+.g-margin-m{margin:15px !important;}
+.g-margin-l{margin:20px !important;}
+.g-margin-xl{margin:30px !important;}
+.g-margin-xxl{margin:40px !important;}
+.g-margin-top-1{margin-top:1px !important;}
+.g-margin-top-xxs{margin-top:3px !important;}
+.g-margin-top-xs{margin-top:5px !important;}
+.g-margin-top-s{margin-top:10px !important;}
+.g-margin-top,.g-margin-top-m{margin-top:15px !important;}
+.g-margin-top-l{margin-top:20px !important;}
+.g-margin-top-xl{margin-top:30px !important;}
+.g-margin-top-xxl{margin-top:40px !important;}
+.g-margin-right-1{margin-right:1px !important;}
+.g-margin-right-xxs{margin-right:3px !important;}
+.g-margin-right-xs{margin-right:5px !important;}
+.g-margin-right-s{margin-right:10px !important;}
+.g-margin-right-m{margin-right:15px !important;}
+.g-margin-right,.g-margin-right-l{margin-right:20px !important;}
+.g-margin-right-xl{margin-right:30px !important;}
+.g-margin-right-xxl{margin-right:40px !important;}
+.g-margin-bottom-1{margin-bottom:1px !important;}
+.g-margin-bottom-xxs{margin-bottom:3px !important;}
+.g-margin-bottom-xs{margin-bottom:5px !important;}
+.g-margin-bottom-s{margin-bottom:10px !important;}
+.g-margin-bottom,.g-margin-bottom-m{margin-bottom:15px !important;}
+.g-margin-bottom-l{margin-bottom:20px !important;}
+.g-margin-bottom-xl{margin-bottom:30px !important;}
+.g-margin-bottom-xxl{margin-bottom:40px !important;}
+.g-margin-left-1{margin-left:1px !important;}
+.g-margin-left-xxs{margin-left:3px !important;}
+.g-margin-left-xs{margin-left:5px !important;}
+.g-margin-left-s{margin-left:10px !important;}
+.g-margin-left-m{margin-left:15px !important;}
+.g-margin-left,.g-margin-left-m{margin-left:20px !important;}
+.g-margin-left-xl{margin-left:30px !important;}
+.g-margin-left-xxl{margin-left:40px !important;}
+.g-gap-top{margin-top:100px !important;}
+.g-gap-bottom{margin-bottom:100px !important;}
+.g-pull-top-xs{margin-top:-5px !important;}
+.g-pull-top-s{margin-top:-10px !important;}
+.g-pull-top,.g-pull-top-m{margin-top:-15px !important;}
+.g-pull-top-l{margin-top:-20px !important;}
+.g-pull-top-xl{margin-top:-30px !important;}
+.g-pull-top-xxl{margin-top:-40px !important;}
+.g-pull-right-xs{margin-right:-5px !important;}
+.g-pull-right-s{margin-right:-10px !important;}
+.g-pull-right-m{margin-right:-15px !important;}
+.g-pull-right,.g-pull-right-l{margin-right:-20px !important;}
+.g-pull-right-xl{margin-right:-30px !important;}
+.g-pull-right-xxl{margin-right:-40px !important;}
+.g-pull-bottom-xs{margin-bottom:-5px !important;}
+.g-pull-bottom-s{margin-bottom:-10px !important;}
+.g-pull-bottom,.g-pull-bottom-m{margin-bottom:-15px !important;}
+.g-pull-bottom-l{margin-bottom:-20px !important;}
+.g-pull-bottom-xl{margin-bottom:-30px !important;}
+.g-pull-bottom-xxl{margin-bottom:-40px !important;}
+.g-pull-left-xs{margin-left:-5px !important;}
+.g-pull-left-s{margin-left:-10px !important;}
+.g-pull-left-m{margin-left:-15px !important;}
+.g-pull-left,.g-pull-left-l{margin-left:-20px !important;}
+.g-pull-left-xl{margin-left:-30px !important;}
+.g-pull-left-xxl{margin-left:-40px !important;}
+.g-padding-text{padding:8px 10px !important;}
+.g-padding-text-s{padding:3px 5px !important;}
+.g-padding-1{padding:1px !important;}
+.g-padding-xxs{padding:3px !important;}
+.g-padding-xs{padding:5px !important;}
+.g-padding-s{padding:10px !important;}
+.g-padding-m{padding:15px !important;}
+.g-padding-l{padding:20px !important;}
+.g-padding-xl{padding:30px !important;}
+.g-padding-xxl{padding:40px !important;}
+.g-padding-top-1{padding-top:1px !important;}
+.g-padding-top-xxs{padding-top:3px !important;}
+.g-padding-top-xs{padding-top:5px !important;}
+.g-padding-top-s{padding-top:10px !important;}
+.g-padding-top,.g-padding-top-m{padding-top:15px !important;}
+.g-padding-top-l{padding-top:20px !important;}
+.g-padding-top-xl{padding-top:30px !important;}
+.g-padding-top-xxl{padding-top:40px !important;}
+.g-padding-right-1{padding-right:1px !important;}
+.g-padding-right-xxs{padding-right:3px !important;}
+.g-padding-right-xs{padding-right:5px !important;}
+.g-padding-right-s{padding-right:10px !important;}
+.g-padding-right-m{padding-right:15px !important;}
+.g-padding-right,.g-padding-right-l{padding-right:20px !important;}
+.g-padding-right-xl{padding-right:30px !important;}
+.g-padding-right-xxl{padding-right:40px !important;}
+.g-padding-bottom-1{padding-bottom:1px !important;}
+.g-padding-bottom-xxs{padding-bottom:3px !important;}
+.g-padding-bottom-xs{padding-bottom:5px !important;}
+.g-padding-bottom-s{padding-bottom:10px !important;}
+.g-padding-bottom,.g-padding-bottom-m{padding-bottom:15px !important;}
+.g-padding-bottom-l{padding-bottom:20px !important;}
+.g-padding-bottom-xl{padding-bottom:30px !important;}
+.g-padding-bottom-xxl{padding-bottom:40px !important;}
+.g-padding-left-1{padding-left:1px !important;}
+.g-padding-left-xxs{padding-left:3px !important;}
+.g-padding-left-xs{padding-left:5px !important;}
+.g-padding-left-s{padding-left:10px !important;}
+.g-padding-left-m{padding-left:15px !important;}
+.g-padding-left,.g-padding-left-l{padding-left:20px !important;}
+.g-padding-left-xl{padding-left:30px !important;}
+.g-padding-left-xxl{padding-left:40px !important;}
+.g-width-auto{width:auto !important;}
+.g-width-max{width:100% !important;}
+.g-teaser-s{width:65px;height:50px !important;}
+.g-teaser-m{width:130px;height:100px !important;}
+.g-imgwidth-s{width:65px !important;}
+.g-imgwidth-m{width:130px !important;}
+.g-imgwidth-l{width:535px !important;}
+.g-imgwidth-xl{width:735px !important;}
+.g-imgheight-s{height:65px !important;}
+.g-imgheight-m{height:130px !important;}
+.g-imgheight-l{height:535px !important;}
+.g-imgheight-xl{height:735px !important;}
+.g-teaserheight-min-s{min-height:50px;height:auto !important;height:50px;}
+.g-teaserheight-min-m{min-height:100px;height:auto !important;height:100px;}
+.g-imgmargin-left-s{margin-left:73px !important;}
+.g-imgmargin-left-m{margin-left:140px !important;}
+.g-imgmargin-right-s{margin-right:73px !important;}
+.g-imgmargin-right-m{margin-right:140px !important;}
+.g-videowidth-m{width:320px !important;}
+.g-videowidth-l{width:640px !important;}
+.g-videomargin-left-m{margin-left:330px !important;}
+.g-videomargin-right-m{margin-right:330px !important;}
+/ **************************** * Spalten/Servicebereich - abhaengige Bildbreiten  ****************************/  .g-imgwidth-1of2-s,.g-imgwidth-1of2-m,.g-imgwidth-1of3-s,.g-imgwidth-1of3-m,.g-imgwidth-1of4-s,.g-imgwidth-1of4-m{float:left;}
+.g-imgwidth-1of2-s{width:258px !important;}
+.g-imgwidth-1of2-m{width:358px !important;}
+.g-imgwidth-1of3-s{width:165px !important;}
+.g-imgwidth-1of3-m{width:232px !important;}
+.g-imgwidth-1of4-s{width:119px !important;}
+.g-imgwidth-1of4-m{width:169px !important;}
+a.g-reset-link:link,a.g-reset-link:hover{text-decoration:underline !important;color:#870000 !important;}
+a.g-reset-link:visited{text-decoration:underline !important;color:#668866 !important;color:#870000 !important;}
+.mod-widget.first{margin-top:0 !important;}
+.g-no-margin{margin:0 !important;}
+.g-no-margin-top{margin-top:0 !important;}
+.g-no-margin-right{margin-right:0 !important;}
+.g-no-margin-bottom{margin-bottom:0 !important;}
+.g-no-margin-left{margin-left:0 !important;}
+.g-no-padding{padding:0 !important;}
+.g-no-padding-top{padding-top:0 !important;}
+.g-no-padding-right{padding-right:0 !important;}
+.g-no-padding-bottom{padding-bottom:0 !important;}
+.g-no-padding-left{padding-left:0 !important;}
+.g-no-border{border:none !important;}
+.g-no-bg{background:none !important;}
+.g-no-clear{clear:none !important;}
+.g-no-float{float:none !important;}
+.g-reset-all{background:none !important;margin:0 !important;padding:0 !important;border:0 !important;font-weight:inherit !important;font-style:inherit !important;font-size:100% !important;font-family:inherit !important;vertical-align:baseline !important;-webkit-box-shadow:none !important;-border-radius:none !important;}
+.mod-widget{margin-top:10px;}
+.mod-widget h1{margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;clear:none;}
+.mod-widget .list-buttons{}
+.mod-widget .item-button{float:left;margin-right:10px;}
+.mod-widget .hd{background:url(../img/widget-header.gif) repeat-x;border-bottom:1px solid #e4e4e4;-moz-border-radius:4px 4px 0 0;border-top-left-radius:4px;border-top-right-radius:4px;padding:3px;}
+.mod-widget .widget-icon{float:left;height:24px;width:24px;}
+.mod-widget .widget-title{font-size:1.167em;font-weight:bold;margin:3px 0 0 30px;}
+.mod-widget .bd{background-color:#fff;padding:10px;}
+.mod-widget .ft{background:#eee;border-top:1px solid #e4e4e4;-moz-border-radius:0 0 4px 4px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;padding:10px;}
+.mod-bar{background-color:#666;background-position:0 -148px;font-family:helvetica,arial,sans-serif;font-size:.917em;font-weight:bold;height:31px;}
+.mod-bar .m-list{height:31px;}
+.mod-bar .m-item{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/bar-separator.png) repeat-y;color:#fff;float:left;padding:0 10px;}
+.mod-bar .m-item.m-first{background:none;padding-left:0;}
+.mod-bar .m-text{color:#fff;display:block;height:31px;line-height:31px;font-weight:normal;}
+.mod-bar .m-link{color:#fff;display:block;height:31px;line-height:31px;text-decoration:none;}
+.mod-bar .m-link:hover{text-decoration:underline;}
+.mod-bar .m-block-search{float:left;width:204px;}
+.mod-bar .m-search-wrapper{background:#fff;border:1px solid #888;margin:5px 0 0 10px;height:19px;position:relative;overflow:hidden;}
+.mod-bar .m-search-term{background-position:48px center;border:0;color:#666;height:17px;line-height:17px;margin:0;width:165px;}
+.mod-bar .m-search-button{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/search.png) no-repeat;border:0;height:19px;position:absolute;top:0;right:0;text-indent:-9999px;width:19px;font-size:0;display:block;line-height:0;}
+.mod-bar .m-block-fn{float:left;}
+.mod-bar .m-block-fn .m-list{margin-left:20px;}
+.mod-bar .m-link-rss{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/rss-transparent.png) no-repeat 0 8px;padding-left:18px;}
+.mod-bar .m-link-logout{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/logout-transparent.png) no-repeat left 8px;padding-left:18px;}
+.mod-bar .m-block-lang{float:right;}
+.mod-bar .m-block-lang .m-list{float:right;}
+.mod-bar-nosearch{padding-left:200px;}
+.mod-bc{background-color:#fff;background-position:0 -179px;clear:both;color:#666;font-size:.833em;line-height:1.3em;padding:9px 10px 10px 11px;text-align:left;}
+.mod-bc .m-item{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-bullets.png) no-repeat -2000px 4px;float:left;margin-right:5px;padding-left:8px;white-space:nowrap;}
+.mod-bc .m-item.m-first{background:none;padding-left:0;}
+.mod-bc .m-link{color:#666;text-decoration:underline;}
+.mod-footer{background:#e5e5e5;clear:both;font-family:helvetica,arial,sans-serif;font-size:.917em;font-weight:bold;text-align:center;}
+.mod-footer .m-list{list-style:none;margin:auto;}
+.mod-footer .m-item{display:inline;padding:2px 8px;}
+.mod-footer .m-link{color:#666;text-decoration:none;}
+.mod-footer .m-link:hover{text-decoration:underline;}
+.m-link-mail{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat left 0;padding-left:15px;}
+.mod-mainnav{background-color:#fff;border-top:1px solid #d8d8d8;float:left;width:200px;text-align:left;padding-bottom:30px;position:relative;min-height:500px;height:auto !important;height:500px;}
+.mod-mainnav .m-list{list-style:none;}
+.mod-mainnav .m-item{padding:1px 0 0 0;}
+.mod-mainnav .m-item-1{border-bottom:1px solid #d8d8d8;padding:1px 0;}
+.mod-mainnav .m-link{background:#fff;color:#333;display:block;text-decoration:none;}
+.mod-mainnav .m-link:hover{background:#ddd;}
+.mod-mainnav .m-link.m-selected{background:#bbb;}
+.mod-mainnav .m-link-1{font-size:1.167em;padding:5px 5px 6px 10px;text-transform:uppercase;}
+.mod-mainnav .m-link-2{font-size:1em;line-height:1.333em;padding:4px 5px 5px 20px;}
+.mod-mainnav .m-link-3{font-size:.917em;line-height:1.273em;padding:4px 5px 5px 30px;}
+.mod-audiencecontent .m-h1{background-color:#009440;color:#fff !important;padding:3px;margin:0 !important;font-size:1.5em !important;}
+.mod-cfn{clear:both;}
+.mod-cfn .m-col-1{float:left;}
+.mod-cfn .m-col-2{float:right;}
+.mod-cfn .m-button{background:none;border:0;float:left;margin:0;}
+.mod-cfn .m-col-1 .m-button{padding:3px 10px 4px 0;}
+.mod-cfn .m-col-2 .m-button{padding:3px 0 4px 10px;}
+.mod-cfn .m-link{background-position:bottom left;background-repeat:no-repeat;display:block;font-size:.917em;line-height:1.182em;padding-left:16px;}
+.mod-cfn .m-link{color:#666;text-decoration:none;}
+.mod-cfn .m-link:hover{text-decoration:underline;}
+.mod-cfn .m-link-print{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat left 1px;}
+.mod-cfn .m-link-pdf{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat left -99px;}
+.mod-cfn .m-link-share{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat left -199px;}
+.mod-cfn .m-link-rss{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat left -299px;}
+.mod-cfn .m-link-ical{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat left -499px;}
+.mod-cfn .m-link-top{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat right -399px;padding-left:0;padding-right:16px;}
+.mod-cfn .m-link-arrow{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons-cfn.png) no-repeat left -599px;}
+.mod-cfn-2{border-bottom:1px solid #d8d8d8;padding-top:40px;}
+.mod-cnav{border-bottom:1px solid #d8d8d8;font-size:.917em;padding:0 0 3px 0;margin-top:-1px;}
+.mod-cnav .m-heading{padding:3px 0 0 1px;}
+.mod-cnav .m-item{margin:3px 0;}
+.mod-cnav .m-item-selected .m-link{font-weight:bold;}
+.mod-cnav-tabs{font-size:.917em !important;}
+.mod-cnav-tabs .m-list{margin:0 !important;padding-left:5px !important;display:block;border-width:0 0 1px 0 !important;border-color:#d8d8d8 !important;background:#f0f0f0 !important;}
+.mod-cnav-tabs .m-item{margin-right:3px !important;}
+.mod-gallery{margin:4px 3px 0 0 !important;position:relative;float:left;}
+.mod-gallery-single{margin:4px 10px 4px 0 !important;}
+.mod-gallery a{display:block;}
+.mod-gallery a .m-overlay{display:none;}
+.mod-gallery a:hover .m-overlay{display:block;position:absolute;z-index:100;background-color:#f0f0f0 !important;overflow:hidden;text-align:left !important;top:2px;left:21px;width:100px;max-height:70px;.height:70px;}
+.mod-gallery .m-item{width:130px;height:100px;background-color:#f0f0f0 !important;margin:0;float:left;text-align:center;}
+.mod-gallery-single .m-item{background-color:#f0f0f0 !important;margin:0;float:left;text-align:center;height:auto !important;}
+.mod-gallery .m-thumb{max-width:130px;max-height:100px;height:auto !important;}
+.mod-gallery .m-thumb-m{max-width:130px;max-height:100px;height:auto !important;}
+.mod-gallery-single .m-thumb{max-height:260px !important;}
+.mod-gallery .m-rowheight-0,.mod-gallery .m-rowheight-1,.mod-gallery .m-rowheight-2,.mod-gallery .m-rowheight-3,.mod-gallery .m-rowheight-4,.mod-gallery .m-rowheight-5,.mod-gallery .m-rowheight-6,.mod-gallery .m-rowheight-7,.mod-gallery .m-rowheight-8{overflow:hidden;}
+.mod-gallery .m-rowheight-0{height:0px;}
+.mod-gallery .m-rowheight-1{height:12px;}
+.mod-gallery .m-rowheight-2{height:24px;}
+.mod-gallery .m-rowheight-3{height:36px;}
+.mod-gallery .m-rowheight-4{height:48px;}
+.mod-gallery .m-rowheight-5{height:60px;}
+.mod-gallery .m-rowheight-6{height:72px;}
+.mod-gallery .m-rowheight-7{height:84px;}
+.mod-gallery .m-rowheight-8{height:96px;}
+.mod-gallery a:hover .m-overlay-s{display:none;}
+.mod-gallery a:hover .m-overlay-m{width:100px !important;}
+.mod-gallery a:hover .m-overlay-1of1-s{width:505px !important;}
+.mod-gallery a:hover .m-overlay-1of1-m{width:705px !important;}
+.mod-gallery a:hover .m-overlay-1of2-s{width:228px !important;}
+.mod-gallery a:hover .m-overlay-1of2-m{width:328px !important;}
+.mod-gallery a:hover .m-overlay-1of3-s{width:135px !important;}
+.mod-gallery a:hover .m-overlay-1of3-m{width:202px !important;}
+.mod-gallery a:hover .m-overlay-1of4-s{width:89px !important;}
+.mod-gallery a:hover .m-overlay-1of4-m{width:139px !important;}
+.mod-gallery-single .m-item-s{height:auto !important;width:65px;}
+.mod-gallery-single .m-item-m{background-color:#f0f0f0 !important;margin:0;float:left;text-align:center;height:auto !important;width:130px;}
+.mod-gallery-single .m-item-1of1-s{height:auto !important;width:535px;}
+.mod-gallery-single .m-item-1of1-m{height:auto !important;width:735px;}
+.mod-gallery-single .m-item-1of2-s{height:auto !important;width:258px;}
+.mod-gallery-single .m-item-1of2-m{height:auto !important;width:358px;}
+.mod-gallery-single .m-item-1of3-s{height:auto !important;width:165px;}
+.mod-gallery-single .m-item-1of3-m{height:auto !important;width:323px;}
+.mod-gallery-single .m-item-1of4-s{height:auto !important;width:119px;}
+.mod-gallery-single .m-item-1of4-m{height:auto !important;width:169px;}
+.mod-gallery-single .m-thumb-s{max-width:65px !important;max-height:130px !important;}
+.mod-gallery-single .m-thumb-m{max-width:130px !important;max-height:260px !important;}
+.mod-gallery-single .m-thumb-1of1-s{max-width:535px !important;max-height:260px !important;}
+.mod-gallery-single .m-thumb-1of1-m{max-width:735px !important;max-height:260px !important;}
+.mod-gallery-single .m-thumb-1of2-s{max-width:258px !important;max-height:260px !important;}
+.mod-gallery-single .m-thumb-1of2-m{max-width:358px !important;max-height:260px !important;}
+.mod-gallery-single .m-thumb-1of3-s{max-width:165px !important;max-height:260px !important;}
+.mod-gallery-single .m-thumb-1of3-m{max-width:232px !important;max-height:260px !important;}
+.mod-gallery-single .m-thumb-1of4-s{max-width:119px !important;max-height:260px !important;}
+.mod-gallery-single .m-thumb-1of4-m{max-width:169px !important;max-height:260px !important;}
+.mod-microsite .m-container{clear:both;padding-left:5px;padding-left:5px;border-bottom:1px solid #c8c8c8 !important;}
+.mod-microsite .m-container-first-background{background:#f0f0f0;padding:0;margin:0;margin-top:-1px;}
+.mod-microsite .m-container-first{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/micronav2.png);padding:0;border-bottom:1px solid #c8c8c8 !important;}
+.mod-microsite .m-titel{font-size:1.167em !important;height:22px !important;font-weight:bold;background:url(http://cms-static.uni-muenchen.de/default/lmu/img/home.png) no-repeat 6px 4px;padding-left:23px;padding-top:2px;}
+.mod-microsite .m-titel a{text-decoration:none;color:#333;}
+.mod-microsite .m-li{float:left;white-space:nowrap;padding-right:20px;padding-top:2px;padding-bottom:2px;background:url(http://cms-static.uni-muenchen.de/default/lmu/img/point.png) no-repeat right;}
+.mod-microsite .m-li a.active{font-weight:bold;}
+.mod-microsite .m-li-first{height:24px !important;border-right:1px solid #ffffff;background:none;padding:0;margin:0;}
+.mod-microsite .m-li-first a{display:block;font-size:1.167em !important;height:23px !important;background:none;padding:0;padding-top:1px;padding-left:5px;padding-right:5px;}
+.mod-microsite .m-li-first a.active{height:23px !important;padding-top:0;border-top:1px solid #ffffff;background-color:#d8d8d8;text-decoration:none;font-weight:normal;}
+.mod-microsite .m-li-first a:hover{height:23px !important;padding-top:0;border-top:1px solid #ffffff;background-color:#d8d8d8;text-decoration:none;}
+.mod-slides{}
+.mod-slides .m-slides-container{height:200px;width:535px;}
+.mod-slides .m-slide{display:block;height:170px;width:470px;}
+.mod-tabnav{font-family:helvetica,arial,sans-serif;font-weight:bold;font-size:.917em;line-height:1.182em;position:relative;margin-bottom:30px;}
+.mod-tabnav .m-tabnav-list{overflow:hidden;}
+.mod-tabnav .m-tabnav-item{float:left;border:1px solid #d0d0d0;border-bottom:0;margin-left:5px;position:relative;z-index:1;}
+.mod-tabnav .m-tabnav-item-selected{border:1px solid #b0b0b0;background:#fff;border-bottom:0;color:#000;display:block;padding:0 10px;padding-bottom:1px;height:26px;line-height:27px;z-index:3;}
+.mod-tabnav .m-tabnav-link{text-decoration:none;background:#f6f6f6;color:#666;display:block;padding:0 10px;height:26px;line-height:27px;}
+.mod-tabnav .m-tabnav-link:hover{background:#f2f2f2;color:#333;}
+.mod-tabnav .m-tabnav-line{width:100%;position:absolute;top:27px;border-top:1px solid #b0b0b0;z-index:2;}
+.mod-teaser{zoom:1;}
+.mod-teaser .m-hd{margin-bottom:3px;}
+.mod-teaser .m-heading,.mod-teaser .m-heading{margin-top:0;margin-bottom:0;}
+.mod-teaser .m-media{float:left;}
+.mod-teaser-below .m-media{float:none;padding-bottom:5px;}
+.mod-teaser-userhtml .m-bd{margin-top:-15px;}
+.mod-teaser-m .m-media{margin:4px 10px 0 0;width:130px;min-height:100px;height:auto !important;height:100px;}
+.mod-teaser-m .m-media img{width:130px;}
+.mod-teaser-m-crop .m-media{min-height:100px;height:100px !important;overflow:hidden;}
+.mod-teaser-m-indent .m-bd{margin-left:140px;}
+.mod-teaser-m2 .m-media{margin:4px 10px 0 0;width:260px;min-height:200px;height:auto !important;height:200px;}
+.mod-teaser-m2 .m-media img{width:260px;}
+.mod-teaser-m2-crop .m-media{min-height:200px;height:200px !important;overflow:hidden;}
+.mod-teaser-m2-indent .m-bd{margin-left:270px;}
+.mod-teaser-s .m-media{margin:4px 8px 0 0;width:65px;min-height:50px;height:auto !important;height:50px;}
+.mod-teaser-s .m-media img{width:65px;}
+.mod-teaser-s .m-heading{clear:none;font-size:1.167em;line-height:1.143em;}
+.mod-teaser-s-crop .m-media{min-height:47px;height:47px !important;overflow:hidden;}
+.mod-teaser-s-indent .m-bd{margin-left:73px;}
+.mod-teaser-bg .m-media{margin:0 10px 0 0;}
+.mod-topthema{zoom:1;border:1px solid #d8d8d8;width:533px;height:200px;position:relative;}
+.mod-topthema  .m-media{position:absolute;width:260px;height:200px;top:0;left:0;background-color:#f0f0f0;}
+.mod-topthema  .m-bd{position:absolute;width:250px;height:174px;top:7px;left:272px;overflow:hidden;}
+.mod-topthema  .m-heading{margin-top:2px;margin-bottom:5px;}
+.mod-topthema  .m-more{position:absolute;width:45px;height:15px;top:185px;left:488px;background-color:#f0f0f0;overflow:hidden;text-align:center;}
+.mod-topthema  .m-more a{display:block;text-decoration:none;font-size:.833em;margin-top:-2px;}
+.mod-topthema  .m-more a:hover{text-decoration:underline;}
+.mod-topthema .m-eilmeldung-container{position:absolute;width:140px;height:30px;top:0;left:0px;background-color:#000000;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity:0.5;opacity:0.5;z-index:100;}
+.mod-topthema .m-eilmeldung-titel{position:absolute;width:140px;height:20px;top:5px;left:0px;color:#ffffff;text-align:center;font-size:1.167em;z-index:200;}
+.mod-zoom{position:relative;float:left;background-color:#f0f0f0 !important;}
+.mod-zoom .m-size,.mod-zoom .m-media{position:relative;}
+.m-zoom-icon{position:absolute;z-index:100;background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-image.png) no-repeat;color:#fff;display:block;font-size:.833em;overflow:hidden;text-align:center;text-indent:-9999px;top:2px;left:3px;width:15px;height:15px;}
+.m-zoom-gallery-icon{position:absolute;z-index:100;background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-image.png) -20px 0 no-repeat;color:#fff;display:block;font-size:.833em;overflow:hidden;text-align:center;text-indent:-9999px;top:2px;left:2px;width:15px;height:15px;}
+.mod-zoom .m-active{display:block;}
+.mod-zoom a,.mod-zoom a:link,.mod-zoom a:hover,.mod-zoom a:visited{line-height:0;}
+.mod-zoom-s{float:left;margin:4px 10px 4px 0;width:65px !important;}
+.mod-zoom-m{float:left;margin:4px 10px 4px 0;width:130px !important;}
+.mod-zoom-m .m-size-m{display:block;}
+.mod-zoom-m .m-size-l{display:none;}
+.mod-zoom-l{width:535px !important;}
+.mod-zoom-l .m-size-m{display:none;}
+.mod-zoom-l .m-size-l{display:block;padding-top:4px;}
+.mod-zoom-1of2-s{float:left;margin:4px 10px 4px 0;width:258px;}
+.mod-zoom-1of2-m{float:left;margin:4px 10px 4px 0;width:358px;}
+.mod-zoom-1of3-s{float:left;margin:4px 10px 4px 0;width:165px;}
+.mod-zoom-1of3-m{float:left;margin:4px 10px 4px 0;width:232px;}
+.mod-zoom-1of4-s{float:left;margin:4px 10px 4px 0;width:119px;}
+.mod-zoom-1of4-m{float:left;margin:4px 10px 4px 0;width:169px;}
+.mod-audiencelinks{padding:0 5px;}
+.mod-audiencelinks .m-heading.ui-state-default{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-bullets.png) no-repeat -3000px 4px;padding-left:16px;cursor:pointer;}
+.mod-audiencelinks .m-heading.ui-state-active{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-bullets.png) no-repeat -4000px 4px;padding-left:16px;font-weight:bold;cursor:pointer;}
+.mod-audiencelinks .m-list{margin-top:-3px !important;}
+.mod-audiencelinks .m-item{margin:5px 0 !important;}
+.mod-audiencelinks .m-link{text-decoration:none;}
+.mod-audiencelinks .m-link:hover{text-decoration:underline;}
+.mod-calendar .m-link{text-decoration:none;}
+.mod-calendar .m-link:hover{text-decoration:underline;}
+.mod-calendar .m-bd{padding-right:10px;}
+.mod-calendar .m-calendar{display:none;margin-bottom:20px;font-size:1em;}
+.mod-calendar .m-servicetext{padding:0;margin-bottom:0;border-width:0;}
+.mod-calendar .m-form{margin:0;margin-top:5px;}
+.mod-calendar .m-input{border:1px solid #afafaf;background-color:#efefe9;width:155px;}
+.mod-calendar .m-table{font-size:1em;margin:4px 0 2px 0;border-spacing:0;border-collapse:collapse;empty-cells:hide;}
+.mod-calendar .m-table a{font-weight:bold;}
+.mod-calendar .m-table th{vertical-align:top;line-height:2em;text-align:center;font-weight:bold;color:#797979;border:1px solid #fff;width:14.29%;padding:0;}
+.mod-calendar .m-table td{vertical-align:top;line-height:2em;text-align:center;border:1px solid #fff;width:14.29%;padding:0;}
+.mod-calendar .m-table td.m-bold{background-color:#fff;font-weight:bold;}
+.mod-calendar .m-table td.m-selected,.mod-calendar .m-table td.m-bold.m-selected{background-color:#006633;font-weight:bold;}
+.mod-calendar .m-table td.m-selected a,.mod-calendar .m-table td.m-bold.m-selected a{color:#fff;}
+.mod-calendar .m-calendar-top{padding:2px;color:#797979;}
+.mod-calendar .m-search{color:#7A7979;}
+.mod-calendar .m-search-text{width:160px;}
+.mod-datepicker{font-size:.917em;margin-left:-1px;margin-right:-1px;margin-bottom:20px;}
+.mod-datepicker .m-ajaxloader{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/ajax-loader.gif) #f0f0f0 no-repeat center center;height:185px;margin:0 1px;}
+.mod-datepicker .m-header,.mod-datepicker .m-footer{background-color:#f0f0f0;padding:3px;margin:0 1px;}
+.mod-datepicker .m-header{padding:0 3px;}
+.mod-datepicker .mod-datepicker-header{position:relative;}
+.mod-datepicker .ui-datepicker-prev,.mod-datepicker .ui-datepicker-next{position:absolute;}
+.mod-datepicker .ui-datepicker-prev{left:0;}
+.mod-datepicker .ui-datepicker-prev span{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat 0 -400px;width:12px;height:12px;display:block;text-indent:-5000px;cursor:pointer;margin:3px 0 0 3px;}
+.mod-datepicker .ui-datepicker-next{right:0;}
+.mod-datepicker .ui-datepicker-next span{background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat 0 -300px;width:12px;height:12px;display:block;text-indent:-5000px;cursor:pointer;margin:3px 3px 0 0;}
+.mod-datepicker .ui-datepicker-title{background-color:#f0f0f0;text-align:center;margin:0 1px;}
+.mod-datepicker table{width:100%;border-spacing:1px;}
+.mod-datepicker th{color:#808080;text-align:center;background-color:#e4e4e4;overflow:hidden;width:14.28%;font-weight:bold;}
+.mod-datepicker td{color:#666;background-color:#f0f0f0;overflow:hidden;width:14.28%;}
+.mod-datepicker td a{display:block;text-align:right;padding-right:4px;font-weight:bold;}
+.mod-datepicker td a:hover{background-color:#d8d8d8;}
+.mod-datepicker td a.ui-state-active{background-color:#870000;color:#fff;font-weight:bold;}
+.mod-datepicker td.ui-datepicker-unselectable{text-align:right;padding-right:4px;}
+.mod-datepicker td.ui-datepicker-current-day{}
+.mod-datepicker td.ui-datepicker-today{color:#333;border:1px solid #870000;}
+.mod-datepicker .ui-datepicker-buttonpane{background-color:#f0f0f0;margin:0 1px;padding:3px 0 0 3px;}
+.mod-datepicker .ui-datepicker-current{font-family:verdana,helvetica,arial,sans-serif;font-size:1em;color:#870000;text-align:left;background:none;margin:0;padding:0;border:none;cursor:pointer;text-decoration:underline;text-transform:capitalize;}
+.mod-datepicker .m-datepicker-searchpane{margin:0 1px;background-color:#f0f0f0;padding:3px;padding-top:8px;position:relative;}
+.mod-datepicker .m-datepicker-searchtext{border:1px solid #d8d8d8;font-size:1em;font-family:helvetica,arial,sans-serif;color:#666;padding:2px;width:160px;}
+.mod-datepicker .m-datepicker-searchbutton{display:block;position:absolute;left:172px;top:11px;background:url(http://cms-static.uni-muenchen.de/default/lmu/img/sprite-buttons.png) no-repeat 0 -300px;cursor:pointer;text-indent:-5000px;width:12px;height:12px;overflow:hidden;border:0;}
+.mod-quicklinks{padding-left:0;}
+.mod-quicklinks .m-item{margin:5px 0 !important;}
+.mod-quicklinks .m-link{text-decoration:none;}
+.mod-quicklinks .m-link:hover{text-decoration:underline;}
+.mod-contactform2 .g-table{table-layout:auto;}
+.mod-contactform2 .m-description{font-weight:normal;margin:0;}
+.mod-contactform2 .m-box-error{border:2px solid #bd2a17;color:#bd2a17;padding:5px;}
+.mod-contactform2 .m-hinweis{color:#777;font-size:.917em;margin:0;}
+.mod-contactform2 .m-label-required{color:#777;font-size:.917em;font-weight:normal;margin:0;}
+.mod-contactform2 .m-field-error{color:#bd2a17;font-weight:bold;margin:3px 0;}
+.mod-contactform2 .m-toc{font-size:.917em;}
+.mod-contactform2 .m-toc-label{color:#777;}
+.mod-contactform2 .m-toc-liste{color:#777;}
+.mod-contactform2 .m-toc-item{}
+.mod-contactform2 fieldset.m-hidden{border:none;padding:0;}
+.mod-contactform2 fieldset .m-list{list-style-type:none;margin:0;padding:0;}
+.mod-contactform2 fieldset .m-uitem{background:none;}
+.mod-contactform2 .m-attachments label{font-weight:normal;}
+.mod-contactform2 .m-checklist2{float:left;margin-left:20px;}
+.mod-contactform2 .m-checklist2 .m-separated{margin:14px 0 4px 0;}
+.mod-contactform2 .m-attachments{margin:0;}
+.mod-contactform2 ul.m-attachments li{margin:0 0 8px 0;padding:0;}
+.mod-contactform2 th{border:none;padding:4px 1em 0 0;vertical-align:top !important;white-space:nowrap;}
+.mod-contactform2 td{border:none;padding:2px 0;vertical-align:top !important;width:90%;}
+.mod-contactform2 li.m-gap,.mod-contactform2 tr.m-gap th,.mod-contactform2 tr.m-gap td{padding-top:15px;}
+.mod-contactform2 .m-label-optgroup{display:block;margin-top:20px;color:#666;font-weight:bold;}
+.mod-contactform2 .m-label-optgroup-2{font-weight:normal;margin-top:15px;}
+.mod-contactform2 .m-optgroup{margin-right:30px;}
